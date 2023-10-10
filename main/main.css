@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 28px;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  line-height: normal;
+  letter-spacing: 0.188px;
+  background-color: #d5e1ef;
+  color: #222;
+}
+.quere_cod_card {
+  width: 100%;
+  max-width: 350px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  padding: 16px 16px 40px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 80px;
+}
+.quere_code_card_img {
+  max-width: 300px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  margin: 0 auto;
+}
+.quere_cod_card_heading {
+  font-size: 24px;
+  font-weight: 700;
+}
+.quere_cod_card_text {
+  font-size: 20px;
+  font-weight: 400;
+}
